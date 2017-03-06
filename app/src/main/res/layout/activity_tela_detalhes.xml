@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/id_poke"
+        android:text="#001"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_marginTop="115dp"
+        android:layout_marginLeft="32dp"
+        android:textStyle="bold"
+        android:shadowColor="#000000"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="5"/>
+
+    <ImageView
+        android:id="@+id/foto_poke"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/poke_lista"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="220dp"/>
+
+    <TextView
+        android:id="@+id/nome_poke"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="20dp"
+        android:text="Nome Pokemon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:shadowColor="#000000"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="5"/>
+
+    <TextView
+        android:layout_marginTop="250dp"
+        android:layout_marginRight="30dp"
+        android:layout_alignParentRight="true"
+        android:text="species"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/species_poke"
+        android:layout_marginTop="280dp"
+        android:layout_marginRight="30dp"
+        android:layout_alignParentRight="true"
+        android:text="species"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_marginTop="350dp"
+        android:layout_marginRight="30dp"
+        android:layout_alignParentRight="true"
+        android:text="types"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/types_poke"
+        android:layout_marginTop="380dp"
+        android:layout_marginRight="30dp"
+        android:layout_alignParentRight="true"
+        android:text="types"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"/>
+
+
+</RelativeLayout>
